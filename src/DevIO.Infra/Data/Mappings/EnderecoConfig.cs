@@ -36,7 +36,7 @@ namespace DevIO.Infra.Data.Mappings
 
             Property(c => c.Estado)
                 .IsRequired()
-                .HasMaxLength(100);
+                .HasMaxLength(50);
 
             ToTable("Enderecos");
         }
