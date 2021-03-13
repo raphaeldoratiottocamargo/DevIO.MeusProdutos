@@ -1,9 +1,6 @@
 ﻿using DevIO.Business.Core.Services;
 using DevIO.Business.Models.Produtos.Validations;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DevIO.Business.Models.Produtos.Services
