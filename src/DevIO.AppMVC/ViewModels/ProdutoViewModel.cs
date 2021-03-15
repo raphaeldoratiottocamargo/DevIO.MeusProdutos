@@ -30,7 +30,8 @@ namespace DevIO.AppMVC.ViewModels
         public string Descricao { get; set; }
 
         [DisplayName("Imagem do Produto")]
-        public HttpPostedFileBase ImagemUpload { get; set; }
+        public HttpPostedFileBase ImagemUpload { get; set; }//Esses campos devem ser comentados para realizar o Scaffold
+
         public string Imagem { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
@@ -42,8 +43,8 @@ namespace DevIO.AppMVC.ViewModels
         [DisplayName("Ativo?")]
         public bool Ativo { get; set; }
 
-        public FornecedorViewModel Fornecedor { get; set; }
+        public FornecedorViewModel Fornecedor { get; set; }//Esses campos devem ser comentados para realizar o Scaffold
 
-        public IEnumerable<FornecedorViewModel> Fornecedores { get; set; }
+        public IEnumerable<FornecedorViewModel> Fornecedores { get; set; }//Esses campos devem ser comentados para realizar o Scaffold
     }
 }

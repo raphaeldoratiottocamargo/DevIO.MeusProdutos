@@ -10,7 +10,7 @@ namespace DevIO.Business.Core.Data
     {
         Task Adicionar(TEntity entity);
         Task<TEntity> ObterPorId(Guid id);
-        Task<List<TEntity>> ObeterTodos();
+        Task<List<TEntity>> ObterTodos();
         Task Atualizar(TEntity entity);
         Task Remover(Guid id);
         Task<IEnumerable<TEntity>> Buscar(Expression<Func<TEntity, bool>> predicate);
